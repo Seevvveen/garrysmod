@@ -5,7 +5,7 @@ function PANEL:Init()
 
 	self.Label = vgui.Create( "DLabel", self )
 	self.Label:SetText( "" )
-	self.Label:SetDark( true )
+	--self.Label:SetDark( true ) -Depreciated
 
 end
 
@@ -26,14 +26,14 @@ end
 
 function PANEL:PerformLayout()
 
-	local y = 5
-	self.Label:SetPos( 5, y )
+	--local y = 5
+	self.Label:SetPos( 5, 5 )
 	self.Label:SetWide( self:GetWide() )
 
-	y = y + self.Label:GetTall()
-	y = y + 5
+	--y = y + self.Label:GetTall()
+	--y = y + 5
 
-	return y
+	--return y
 
 end
 

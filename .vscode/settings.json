@@ -1,0 +1,17 @@
+{
+    "Lua.workspace.library": [
+        "C:/Users/holde/AppData/Roaming/Code/User/globalStorage/sumneko.lua/addonManager/addons/garrysmod/module/library"
+    ],
+    "Lua.workspace.checkThirdParty": false,
+    "Lua.runtime.version": "Lua 5.1",
+    "Lua.runtime.special": {
+        "include": "dofile",
+        "IncludeCS": "dofile"
+    },
+    "Lua.runtime.nonstandardSymbol": [
+        "continue"
+    ],
+    "Lua.diagnostics.disable": [
+        "duplicate-set-field"
+    ]
+}
